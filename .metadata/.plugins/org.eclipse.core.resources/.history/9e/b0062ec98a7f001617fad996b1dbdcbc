@@ -1,0 +1,15 @@
+import org.jointheleague.graphical.robot.Robot;
+
+public class DrawMe {
+public static void main(String[] args) {
+	
+	Robot Alex= new Robot();
+	
+	Alex.penDown();
+	Alex.turn(20);
+	Alex.move(500);
+	Alex.turn(135);
+	Alex.move(500);
+	
+}
+}

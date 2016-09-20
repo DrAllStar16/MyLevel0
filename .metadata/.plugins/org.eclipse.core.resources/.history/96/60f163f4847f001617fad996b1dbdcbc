@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class Jop {
+public static void main(String[] args) {
+String jop= JOptionPane.showInputDialog("Can You Say Something");
+	JOptionPane.showMessageDialog(null, jop+ "is awesome");
+	
+	
+	
+	
+	
+}
+}
