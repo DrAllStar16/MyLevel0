@@ -3,6 +3,7 @@
 import javax.swing.JOptionPane;
 import java.awt.Color;
 import org.teachingextensions.logo.Colors;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 
 public class TortoiseColorChooser {
@@ -29,7 +30,7 @@ public class TortoiseColorChooser {
  }
 //5. if the user doesn’t enter anything, choose a random color
  else{
-	 Tortoise.setPenColor(Color.orange);
+	 Tortoise.setPenColor(PenColors.getRandomColor());
  }
 //6. put a loop around your code so that you keep asking the user for more colors & drawing them
 		
