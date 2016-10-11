@@ -20,7 +20,7 @@ public class FlamingNinjaStar {
 Robot fartingpotato=new Robot();
 fartingpotato.penDown();
 fartingpotato.setSpeed(10);
-
+fartingpotato.setPenWidth(10);
 for(int bob=0;bob<366;bob++){
 	
 
