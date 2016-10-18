@@ -39,7 +39,8 @@ fartingpotato.move(64);
       
       // 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 fartingpotato.turn(320);
-fartingpotato.setPenColor(PenColors.getRandomColor());
+fartingpotato.setPenColor(Color.BLUE);
+//fartingpotato.setPenColor(PenColors.getRandomColor());
       // 5. Move the robot the distance in the variable flameSize
 fartingpotato.move(200);
       // 6. Turn the robot 170 degrees
